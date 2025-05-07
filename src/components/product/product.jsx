@@ -1,10 +1,10 @@
-import type { RootState } from "@/app/store";
+
 import { CardCommon } from "../components";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleLike, toggleShopping } from "@/app/productSlice";
 
 export const Product = () => {
-  const products = useSelector((state: RootState) => state.product.products);
+  const products = useSelector((state) => state.product.products);
   const dispatch = useDispatch();
   return (
     <div className="py-10">

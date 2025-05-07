@@ -1,18 +1,8 @@
-export interface Props {
-  id: number;
-  title: string;
-  image: string;
-  likeToggle: boolean;
-  price: string;
-  discount: string;
-}
-
-export const PRODUCT: Props[] = [
+export const PRODUCT = [
   {
     id: 1,
     title: "Perforator Bosch GBH 2-26",
-    image:
-      "https://ikarvon.uz/storage/products/September2023/3gUoztZe9VucA2WILPGx.png",
+    image: "https://ikarvon.uz/storage/products/September2023/3gUoztZe9VucA2WILPGx.png",
     likeToggle: false,
     price: "1,200,000 UZS",
     discount: "20%",
@@ -28,8 +18,7 @@ export const PRODUCT: Props[] = [
   {
     id: 3,
     title: "Tsement M-400 (50kg)",
-    image:
-      "https://frankfurt.apollo.olxcdn.com/v1/files/qllok5g2rt0h2-UZ/image;s=615x747",
+    image: "https://frankfurt.apollo.olxcdn.com/v1/files/qllok5g2rt0h2-UZ/image;s=615x747",
     likeToggle: false,
     price: "55,000 UZS",
     discount: "",
@@ -61,8 +50,7 @@ export const PRODUCT: Props[] = [
   {
     id: 7,
     title: "Shpakat (20kg)",
-    image:
-      "https://tovar.uz/images/company/3362/tovar/110260/o_1_64dc93d661680.png",
+    image: "https://tovar.uz/images/company/3362/tovar/110260/o_1_64dc93d661680.png",
     likeToggle: false,
     price: "120,000 UZS",
     discount: "5%",
@@ -78,8 +66,7 @@ export const PRODUCT: Props[] = [
   {
     id: 11,
     title: "Qurilish ko'zoynagi",
-    image:
-      "https://srcyrl.workprotool.com/uploads/202236532/safety-goggles-anti-fog00469516347.jpg",
+    image: "https://srcyrl.workprotool.com/uploads/202236532/safety-goggles-anti-fog00469516347.jpg",
     likeToggle: false,
     price: "25,000 UZS",
     discount: "",
@@ -87,8 +74,7 @@ export const PRODUCT: Props[] = [
   {
     id: 12,
     title: "Level (40cm)",
-    image:
-      "https://m.media-amazon.com/images/I/71Ru97mLJ7L._AC_UF894,1000_QL80_.jpg",
+    image: "https://m.media-amazon.com/images/I/71Ru97mLJ7L._AC_UF894,1000_QL80_.jpg",
     likeToggle: false,
     price: "35,000 UZS",
     discount: "10%",
